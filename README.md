@@ -49,9 +49,3 @@ With one hotkey or a tray menu, you can lock and unlock windows to stay visible 
 Requirements:
 - Windows 10/11 (x64)
 - [.NET 8 SDK](https://dotnet.microsoft.com/download)
-
-Steps:
-```powershell
-git clone https://github.com/your-repo/toplock.git
-cd toplock
-dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:SelfContained=true
