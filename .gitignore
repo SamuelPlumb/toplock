@@ -1,0 +1,19 @@
+﻿# .NET / Visual Studio
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+# Publish/packaged output
+publish/
+artifacts/
+*.exe
+*.dll
+*.pdb
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.idea/
